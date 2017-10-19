@@ -33,7 +33,7 @@ I'd be interested in Grafana dahsboard .json exports or Prometheus queries you m
     // Frontend requests
     irate(varnish_main_client_req[5m])
 
-    // Frontend requests
+    // Backend requests
     irate(varnish_main_backend_req[5m])
 
     // Network bytes frontend
